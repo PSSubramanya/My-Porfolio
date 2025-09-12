@@ -15,6 +15,13 @@
   justify-content: flex-end;
 }
 
+a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+}
+
 span {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
