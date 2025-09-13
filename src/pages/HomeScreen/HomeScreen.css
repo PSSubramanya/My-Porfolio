@@ -604,6 +604,7 @@ span {
     display: flex;
     flex-direction: column;
     height: 290px;
+    margin-left: -5px;
     align-items: center;
   }
   #profile-container {
