@@ -432,6 +432,7 @@ span {
   background-color: white;
   padding: 15px 20px 15px 20px;
   border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 .contacting-medium-text:hover {
   cursor: pointer;
@@ -524,6 +525,7 @@ span {
   .contacting-medium-text {
     font-size: 8px;
     width: 160px;
+    margin-left: -5px;
   }
 }
 
@@ -617,6 +619,13 @@ span {
   }
   .contacting-box {
     width: 400px;
+  }
+  .small-divider {
+    width: 260px;
+  }
+  .contacting-medium-text {
+    font-size: 10px;
+    width: 260px;
   }
 }
 

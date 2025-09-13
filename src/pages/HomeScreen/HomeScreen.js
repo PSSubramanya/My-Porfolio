@@ -394,9 +394,10 @@ const HomeScreen = () => {
                     "_blank"
                   )
                 }
-                className="contacting-medium-text active-styling"
               >
-                subbukarthikeya98@gmail.com
+                <span className="contacting-medium-text active-styling">
+                  subbukarthikeya98@gmail.com
+                </span>
               </button>
             </div>
           </div>
@@ -434,7 +435,6 @@ const HomeScreen = () => {
                     "_blank"
                   )
                 }
-                className="contacting-medium-text active-styling"
               >
                 <span className="contacting-medium-text active-styling">
                   Go to LinkedIn
