@@ -52,6 +52,13 @@ a {
   text-decoration: none;
 }
 
+button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+}
+
 span {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -68,6 +75,11 @@ span {
   color: #fff;
   font-weight: 500;
   margin: 0 15px 0 15px;
+}
+
+.new-project-text {
+  /* color: #fff; */
+  font-weight: 500;
 }
 
 .head-text:hover {

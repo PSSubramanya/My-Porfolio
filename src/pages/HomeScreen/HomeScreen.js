@@ -64,9 +64,18 @@ const HomeScreen = () => {
             Senior Software Engineer
           </span>
           <div id="button-section">
-            <div className="button-styling">
-              <span className="button-text">New project?</span>
-            </div>
+            <Link
+              to="contact"
+              className="new-project-text"
+              smooth={true}
+              duration={500}
+              spy={true}
+              activeClass="active"
+            >
+              <div className="button-styling">
+                <span className="button-text">New project?</span>
+              </div>
+            </Link>
             <div className="button-styling button-styling-negative-style">
               <span className="button-text button-text-negative-style">
                 My resume
@@ -100,9 +109,18 @@ const HomeScreen = () => {
               Senior Software Engineer
             </span>
             <div id="button-section">
-              <div className="button-styling">
-                <span className="button-text">New project?</span>
-              </div>
+              <Link
+                to="contact"
+                className="new-project-text"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+              >
+                <div className="button-styling">
+                  <span className="button-text">New project?</span>
+                </div>
+              </Link>
               <div className="button-styling button-styling-negative-style">
                 <span className="button-text button-text-negative-style">
                   My resume
@@ -339,9 +357,17 @@ const HomeScreen = () => {
             </span>
 
             <div className="small-divider">
-              <span className="contacting-medium-text active-styling">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=subbukarthikeya98@gmail.com",
+                    "_blank"
+                  )
+                }
+                className="contacting-medium-text active-styling"
+              >
                 subbukarthikeya98@gmail.com
-              </span>
+              </button>
             </div>
           </div>
 
@@ -371,9 +397,19 @@ const HomeScreen = () => {
               Chat with us on LinkedIn
             </span>
             <div className="small-divider">
-              <span className="contacting-medium-text active-styling">
-                Go to LinkedIn
-              </span>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/ps-subramanya-bhat/",
+                    "_blank"
+                  )
+                }
+                className="contacting-medium-text active-styling"
+              >
+                <span className="contacting-medium-text active-styling">
+                  Go to LinkedIn
+                </span>
+              </button>
             </div>
           </div>
         </div>
