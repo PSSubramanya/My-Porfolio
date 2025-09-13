@@ -417,6 +417,12 @@ span {
   padding: 15px 20px 15px 20px;
   border-radius: 5px;
 }
+.contacting-medium-text:hover {
+  cursor: pointer;
+}
+.active-styling:active {
+  opacity: 0.6;
+}
 .small-divider {
   border-top: 0.5px solid #fff;
   margin-top: 20px;

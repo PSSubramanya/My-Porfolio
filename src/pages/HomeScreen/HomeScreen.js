@@ -339,7 +339,7 @@ const HomeScreen = () => {
             </span>
 
             <div className="small-divider">
-              <span className="contacting-medium-text">
+              <span className="contacting-medium-text active-styling">
                 subbukarthikeya98@gmail.com
               </span>
             </div>
@@ -353,7 +353,7 @@ const HomeScreen = () => {
             />
             <span className="contacting-medium-heder-text">Call or text</span>
             <span className="contacting-medium-description-text">
-              Mobile App Development
+              Call us directly between 9AM to 7PM
             </span>
             <div className="small-divider">
               <span className="contacting-medium-text">+91 7204958072</span>
@@ -371,7 +371,9 @@ const HomeScreen = () => {
               Chat with us on LinkedIn
             </span>
             <div className="small-divider">
-              <span className="contacting-medium-text">Go to LinkedIn</span>
+              <span className="contacting-medium-text active-styling">
+                Go to LinkedIn
+              </span>
             </div>
           </div>
         </div>
