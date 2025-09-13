@@ -464,6 +464,7 @@ span {
     margin-right: 60px;
   }
   .skillset-text {
+    width: 100px;
     font-size: 14px;
   }
   .project-display {
