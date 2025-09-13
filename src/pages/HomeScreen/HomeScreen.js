@@ -1,11 +1,23 @@
-import react from "react";
+import react, { useState } from "react";
 import { Link } from "react-scroll";
+import PDFViewer from "pdf-viewer-reactjs";
 import "./HomeScreen.css";
 import imagePath from "../../constants/imagePaths";
 
 const HomeScreen = () => {
+  const [showResume, setShowResume] = useState(false);
+
   return (
     <div>
+      {/* {showResume && (
+        <div style={{ height: "90vh", marginTop: "20px" }}>
+          <PDFViewer
+            document={{
+              url: "https://drive.google.com/file/d/1HC5Q3Dwa2-CXowEEF0_1rvQnzQ0UNFvN/view",
+            }}
+          />
+        </div>
+      )} */}
       <div className="row-style header-spacing-style" id="header-section">
         <Link
           to="home"
@@ -76,11 +88,20 @@ const HomeScreen = () => {
                 <span className="button-text">New project?</span>
               </div>
             </Link>
-            <div className="button-styling button-styling-negative-style">
+            <button
+              className="button-styling button-styling-negative-style"
+              onClick={() => {
+                // setShowResume(true);
+                window.open(
+                  "https://drive.google.com/file/d/1HC5Q3Dwa2-CXowEEF0_1rvQnzQ0UNFvN/view",
+                  "_blank"
+                );
+              }}
+            >
               <span className="button-text button-text-negative-style">
                 My resume
               </span>
-            </div>
+            </button>
           </div>
         </div>
 
@@ -121,11 +142,20 @@ const HomeScreen = () => {
                   <span className="button-text">New project?</span>
                 </div>
               </Link>
-              <div className="button-styling button-styling-negative-style">
+              <button
+                className="button-styling button-styling-negative-style"
+                onClick={() => {
+                  // setShowResume(true);
+                  window.open(
+                    "https://drive.google.com/file/d/1HC5Q3Dwa2-CXowEEF0_1rvQnzQ0UNFvN/view",
+                    "_blank"
+                  );
+                }}
+              >
                 <span className="button-text button-text-negative-style">
                   My resume
                 </span>
-              </div>
+              </button>
             </div>
           </div>
         </div>

@@ -125,7 +125,7 @@ span {
   font-size: 14px;
   font-weight: 800;
   margin-left: 60px;
-  margin-top: 25px;
+  margin-top: 16px;
 }
 
 #profile-container {
@@ -155,7 +155,7 @@ span {
   display: flex;
   height: 320px;
   position: absolute;
-  top: 70px;
+  top: 75px;
   /* top: 360px; */
   left: 0px;
 }
@@ -199,7 +199,7 @@ span {
 
 #button-section {
   margin-left: 60px;
-  margin-top: 20px;
+  margin-top: 16px;
   display: flex;
   flex-direction: row;
 }
@@ -436,6 +436,10 @@ span {
 .contacting-medium-text:hover {
   cursor: pointer;
 }
+.active-styling {
+  margin-top: -10px;
+  width: auto;
+}
 .active-styling:active {
   opacity: 0.6;
 }
@@ -586,7 +590,7 @@ span {
     text-align: center;
   }
   #profile-styling {
-    top: 65px;
+    top: 68px;
     /* top: 355px; */
   }
   #about-me {
@@ -626,7 +630,7 @@ span {
   }
   #profile-styling {
     padding-left: 20vw;
-    top: 355px;
+    top: 358px;
   }
   #button-section {
     margin-top: 10px;
