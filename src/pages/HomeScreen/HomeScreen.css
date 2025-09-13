@@ -2,6 +2,30 @@
   display: flex;
   flex-direction: row;
 }
+.column-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-style {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-style {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.centre-style {
+  display: flex;
+  align-items: center;
+}
+
+.contact-medium-spacing-style {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .two-ends-spacing-style {
   justify-content: space-between;
@@ -213,7 +237,7 @@ span {
   margin-left: 50px;
 }
 
-.tech-stack-icon {
+.portfolio-icons {
   height: 40px;
   width: 40px;
   margin-left: 10px;
@@ -235,7 +259,7 @@ span {
   border-radius: 125%;
 }
 
-#about-me-text {
+.section-header-text {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
@@ -279,6 +303,127 @@ span {
   display: none;
 }
 
+#section-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#contacts-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+#projects-section {
+  display: flex;
+  flex-direction: column;
+}
+.project-text {
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.project-description {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 40px;
+  line-height: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.screenshot-styling {
+  height: 300px;
+  width: 150px;
+  margin-left: 20px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}
+
+.project-details {
+  /* background-color: red; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.project-screenshots {
+  /* background-color: orange; */
+}
+
+.screenhots-leftpad {
+  margin-left: 20vh;
+  /* background-color: red; */
+  /* margin-left: 80px; */
+}
+
+.screenhots-rightpad {
+  margin-right: 20vh;
+  /* background-color: red; */
+  /* margin-right: 80px; */
+}
+
+.project-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+
+.media-queried-details-two {
+  display: none;
+}
+
+.contacting-box {
+  width: 140px;
+  color: #3c3e41;
+  text-align: center;
+  background-color: #18232d;
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacting-medium-heder-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.contacting-medium-description-text {
+  font-size: 10px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 10px;
+  width: 260px;
+  text-align: center;
+}
+.contacting-medium-text {
+  font-size: 10px;
+  font-weight: 600;
+  color: #2f2d85;
+  width: 260px;
+  text-align: center;
+  background-color: white;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+}
+.small-divider {
+  border-top: 0.5px solid #fff;
+  margin-top: 20px;
+  width: 260px;
+  padding-top: 30px;
+}
+
 @media (max-width: 1080px) {
   .tech-stack-text {
     font-size: 12px;
@@ -294,6 +439,47 @@ span {
   }
   .skillset-text {
     font-size: 14px;
+  }
+  .project-display {
+    grid-template-columns: 1fr;
+  }
+  .screenshot-styling {
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .screenshot-spacing {
+    margin-left: 20px;
+  }
+
+  .project-screenshots {
+    justify-content: space-between;
+  }
+
+  .screenhots-leftpad {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .screenhots-rightpad {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .media-queried-details-one {
+    display: none;
+  }
+  .media-queried-details-two {
+    display: flex;
+  }
+  .divider-style {
+    height: 0.5px;
+    background-color: #fff;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 40px;
   }
 }
 
@@ -348,7 +534,7 @@ span {
     width: 250px;
     margin-left: 30px;
   }
-  #about-me-text {
+  .section-header-text {
     text-align: center;
   }
   #about-me-description {
@@ -379,6 +565,14 @@ span {
   }
   #about-me {
     margin-top: -20px;
+  }
+  .contact-medium-spacing-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacting-box {
+    width: 400px;
   }
 }
 
@@ -414,6 +608,9 @@ span {
   .tech-stack-container {
     margin-left: 23px;
   }
+  .project-description {
+    width: 300px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -422,6 +619,9 @@ span {
   }
   #profile-styling {
     padding-left: 15vw;
+  }
+  .contacting-box {
+    width: 300px;
   }
 }
 
