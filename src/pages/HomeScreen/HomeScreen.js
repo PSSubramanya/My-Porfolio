@@ -377,6 +377,12 @@ const HomeScreen = () => {
             </div>
           </div>
         </div>
+        <div className="footer-style">
+          <span className="project-description">
+            We will get back to you as soon as possible. I will be available on
+            working days between 9AM to 7PM and on weekends between 9Am to 1PM.
+          </span>
+        </div>
       </section>
     </div>
   );
