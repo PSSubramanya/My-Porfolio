@@ -514,6 +514,19 @@ span {
   }
 }
 
+@media (max-width: 940px) {
+  .contacting-box {
+    width: 200px;
+  }
+  .small-divider {
+    width: 160px;
+  }
+  .contacting-medium-text {
+    font-size: 8px;
+    width: 160px;
+  }
+}
+
 @media (max-width: 665px) {
   .head-text {
     font-size: 12px;
